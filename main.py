@@ -110,6 +110,6 @@ async def main():
         clock.tick(FPS)
         await asyncio.sleep(0)
         
-pygame.init()
+    pygame.quit()
+
 asyncio.run(main())
-pygame.quit()
